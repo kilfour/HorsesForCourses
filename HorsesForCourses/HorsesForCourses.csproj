@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>HorsesForCourses</AssemblyName>
+    <RootNamespace>HorsesForCourses</RootNamespace>
+    <PackageId>HorsesForCourses</PackageId>
+    <Version>0.0.1-preview</Version>
+    <Authors>Mark Meyers</Authors>
+    <Product>HorsesForCourses</Product>
+    <Description>HorsesForCourses, a reference DDD domain for examples and tests. It's only a model. NOT for production use. APIs unstable.</Description>
+    <PackageTags>ddd;domain-driven-design;aggregates;value-objects;test-fixtures;examples;sut</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/kilfour/HorsesForCourses</RepositoryUrl>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <IncludeBuildOutput>true</IncludeBuildOutput>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
