@@ -4,7 +4,7 @@
     <AssemblyName>HorsesForCourses</AssemblyName>
     <RootNamespace>HorsesForCourses</RootNamespace>
     <PackageId>HorsesForCourses</PackageId>
-    <Version>0.0.1-preview</Version>
+    <Version>0.0.2-preview</Version>
     <Authors>Mark Meyers</Authors>
     <Product>HorsesForCourses</Product>
     <Description>HorsesForCourses, a reference DDD domain for examples and tests. It's only a model. NOT for production use. APIs unstable.</Description>
