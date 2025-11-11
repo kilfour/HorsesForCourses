@@ -54,3 +54,4 @@ TestResult.xml
 nunit-*.xml
 
 temp*.md
+doc.ps1

@@ -12,6 +12,17 @@
 ## Why
 Spinning up a real DDD domain for every demo is busywork. Trivial Person/OrderLine examples are too anemic to be interesting. This package gives you a "good enough" domain with value objects, aggregates, and generic identities so you can focus on the thing you're actually building or explaining.
 
+The model looks small, but it hides just enough complexity to stay interesting.
+
+*See also:* [Domain Requirements](./requirements.md).
+
+Its most deceptively simple rule: 'a coach can only be assigned if they're available', quickly becomes tricky once you imagine thousands of coaches and courses.
+How do you efficiently ask, "Who's free next Thursday at 10?", without scanning the whole database?
+
+It also contains a tiny inconsistency you might not notice at first glance.  
+A missing guard that lets something slip through the cracks.  
+*Can you spot it?*
+
 ## Installation
 Reference the pre-release package from your **test** or **examples** project:
 
@@ -22,6 +33,9 @@ Reference the pre-release package from your **test** or **examples** project:
 ```
 
 * `PrivateAssets=all` keeps the reference local to your project and prevents transitively exposing it if you pack your project.
+
+## License
+This project is licensed under the [MIT License](https://github.com/kilfour/HorsesForCourses/blob/main/LICENSE).  
 
 ## Disclaimer
 
